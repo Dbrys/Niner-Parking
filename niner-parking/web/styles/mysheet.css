@@ -1,0 +1,263 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  position: relative;
+  height:100%;
+  width:100%;
+}
+
+body {
+    position: relative;
+    margin: 0;
+    padding: 0px;
+    height: 100%;
+    min-height: 100%;
+    background-color: #1B533A; 
+    font-family: Arial Black, Gadget, sans-serif; 
+}
+
+.myHeader {
+    height:85px; 
+    background-color: white;
+    color: black;
+    border: 1px solid #000000; 
+    text-align: center;
+    font-family:Impact;
+    text-shadow: 2px 0 0 #fff, 0 -2px 0 #fff, 0 2px 0 #fff, -2px 0 0 #fff
+}
+
+.faveLink {
+    color: white;
+}
+
+.logo img
+{
+    height: 80px; 
+    float: left; 
+    
+}
+
+.logo2 img 
+{
+    height: 80px; 
+    float: right;
+    
+}
+
+.map img
+{
+  float:right;
+  height: 450px; 
+  margin-right: 100px;  
+  padding-right: 0px; 
+}
+
+
+.parking_map
+{
+    position:relative; 
+    width: 100%; 
+    padding-bottom:100%; 
+    height:0; 
+    overflow:hidden; 
+}
+
+.parking_map iframe
+{
+    position: absolute; 
+    top:0;
+    left:0;
+    width: 75.8%; 
+    height: 80%; 
+    
+}
+
+@media only screen and (max-width: 800px)
+{
+    .map img
+    {
+      display: none;     
+    }
+    
+}
+
+
+
+.map > img:hover {
+    height: 600px;
+}
+
+
+.choice
+{
+       
+   list-style: none;
+}
+
+ul
+{
+    margin: 0px; 
+    padding: 0px; 
+     
+}
+
+
+ul li a 
+{
+    color: black;
+    
+}
+
+a:link {
+    text-decoration: none;
+    
+}
+
+footer p
+{
+    color: whitesmoke; 
+    
+}
+
+
+table, th, tr, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    background-color: whitesmoke;
+  
+}
+
+h2 
+{
+    color: whitesmoke; 
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+th, td {
+    padding: 5px 15px 5px 15px;
+}
+
+.percentColumn {
+    text-align: center;
+    width: 300px;
+}
+
+.percentColumn.low10.gradient {
+    background-image: linear-gradient(to right, rgba(48, 240, 80, 1) 0%, rgba(54, 240, 48, 1) 100%);
+    background-repeat: no-repeat;
+}
+
+.percentColumn.low20.gradient {
+    background-image: linear-gradient(to right, rgba(48, 240, 80, 1) 0%, rgba(54, 240, 48, 1) 50%, 
+        rgba(154, 240, 48, 1) 100%);
+    background-repeat: no-repeat;
+}
+
+.percentColumn.low30.gradient {
+    background-image: linear-gradient(to right, rgba(48, 240, 80, 1) 0%, rgba(54, 240, 48, 1) 33%, 
+        rgba(154, 240, 48, 1) 66%, rgba(214, 240, 48, 1) 100%);
+    background-repeat: no-repeat;
+}
+
+.percentColumn.mid40.gradient {
+    background-image: linear-gradient(to right, rgba(48, 240, 80, 1) 0%, rgba(54, 240, 48, 1) 25%, 
+        rgba(154, 240, 48, 1) 50%, rgba(214, 240, 48, 1) 75%, rgba(240, 227, 48, 1) 100%);
+    background-repeat: no-repeat;
+}
+
+.percentColumn.mid50.gradient {
+    background-image: linear-gradient(to right, rgba(48, 240, 80, 1) 0%, rgba(54, 240, 48, 1) 20%, 
+        rgba(154, 240, 48, 1) 40%, rgba(214, 240, 48, 1) 60%, rgba(240, 227, 48, 1) 80%, 
+        rgba(240, 227, 48, 1) 100%);
+    background-repeat: no-repeat;
+}
+
+.percentColumn.mid60.gradient {
+    background-image: linear-gradient(to right, rgba(48, 240, 80, 1) 0%, rgba(54, 240, 48, 1) 16%, 
+        rgba(154, 240, 48, 1) 32%, rgba(214, 240, 48, 1) 48%, rgba(240, 227, 48, 1) 64%, 
+        rgba(240, 227, 48, 1) 80%, rgba(240, 202, 48, 1) 100%);
+    background-repeat: no-repeat;
+}
+
+.percentColumn.mid70.gradient {
+    background-image: linear-gradient(to right, rgba(48, 240, 80, 1) 0%, rgba(54, 240, 48, 1) 14%, 
+        rgba(154, 240, 48, 1) 28%, rgba(214, 240, 48, 1) 42%, rgba(240, 227, 48, 1) 56%, 
+        rgba(240, 227, 48, 1) 70%, rgba(240, 202, 48, 1) 84%, rgba(240, 202, 48, 1) 100%);
+    background-repeat: no-repeat;
+}
+
+.percentColumn.high80.gradient {
+    background-image: linear-gradient(to right, rgba(48, 240, 80, 1) 0%, rgba(54, 240, 48, 1) 12.5%, 
+        rgba(154, 240, 48, 1) 25%, rgba(214, 240, 48, 1) 37.5%, rgba(240, 227, 48, 1) 50%, 
+        rgba(240, 227, 48, 1) 62.5%, rgba(240, 202, 48, 1) 75%, rgba(240, 202, 48, 1) 87.5%, 
+        rgba(240, 182, 48, 1) 100%);
+    background-repeat: no-repeat;
+}
+
+.percentColumn.high90.gradient {
+    background-image: linear-gradient(to right, rgba(48, 240, 80, 1) 0%, rgba(54, 240, 48, 1) 11%, 
+        rgba(154, 240, 48, 1) 22%, rgba(214, 240, 48, 1) 33%, rgba(240, 227, 48, 1) 44%, 
+        rgba(240, 227, 48, 1) 55%, rgba(240, 202, 48, 1) 66%, rgba(240, 202, 48, 1) 77%, 
+        rgba(240, 182, 48, 1) 88%, rgba(240, 125, 48, 1) 100%);
+    background-repeat: no-repeat;
+}
+
+.percentColumn.high100.gradient {
+    background-image: linear-gradient(to right, rgba(48, 240, 80, 1) 0%, rgba(54, 240, 48, 1) 10%, 
+        rgba(154, 240, 48, 1) 20%, rgba(214, 240, 48, 1) 30%, rgba(240, 227, 48, 1) 40%, 
+        rgba(240, 227, 48, 1) 50%, rgba(240, 202, 48, 1) 60%, rgba(240, 202, 48, 1) 70%, 
+        rgba(240, 182, 48, 1) 80%, rgba(240, 125, 48, 1) 90%, rgba(252, 11, 3, 1) 100%);
+    background-repeat: no-repeat;
+}
+
+.percentColumn.low10.solid {
+    background-image: linear-gradient(to right, rgba(54, 240, 48, 1) 0%, rgba(54, 240, 48, 1) 100%);
+    background-repeat: no-repeat;
+}
+
+.percentColumn.low20.solid {
+    background-image: linear-gradient(to right, rgba(115, 240, 48, 1) 0%, rgba(115, 240, 48, 1) 100%);
+    background-repeat: no-repeat;
+}
+
+.percentColumn.low30.solid {
+    background-image: linear-gradient(to right, rgba(154, 240, 48, 1) 0%, rgba(154, 240, 48, 1) 100%);
+    background-repeat: no-repeat;
+}
+
+.percentColumn.mid40.solid {
+    background-image: linear-gradient(to right, rgba(214, 240, 48, 1) 0%, rgba(214, 240, 48, 1) 100%);
+    background-repeat: no-repeat;
+}
+
+.percentColumn.mid50.solid {
+    background-image: linear-gradient(to right, rgba(240, 227, 48, 1) 0%, rgba(240, 227, 48, 1) 100%);
+    background-repeat: no-repeat;
+}
+
+.percentColumn.mid60.solid {
+    background-image: linear-gradient(to right, rgba(240, 227, 48, 1) 0%, rgba(240, 227, 48, 1) 100%);
+    background-repeat: no-repeat;
+}
+
+.percentColumn.mid70.solid {
+    background-image: linear-gradient(to right, rgba(240, 202, 48, 1) 0%, rgba(240, 202, 48, 1) 100%);
+    background-repeat: no-repeat;
+}
+
+.percentColumn.high80.solid {
+    background-image: linear-gradient(to right, rgba(240, 182, 48, 1) 0%, rgba(240, 182, 48, 1) 100%);
+    background-repeat: no-repeat;
+}
+
+.percentColumn.high90.solid {
+    background-image: linear-gradient(to right, rgba(240, 125, 48, 1) 0%, rgba(240, 125, 48, 1) 100%);
+    background-repeat: no-repeat;
+}
+
+.percentColumn.high100.solid {
+    background-image: linear-gradient(to right, rgba(252, 11, 3, 1) 0%, rgba(252, 11, 3, 1) 100%);
+    background-repeat: no-repeat;
+}
